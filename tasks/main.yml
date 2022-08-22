@@ -57,7 +57,8 @@
 
 - name: Download sshd_config from git repo
   get_url:
-    url: https://gitlab.com/habbis/openssh_config/raw/master/sshd_config
+    #url: https://gitlab.com/habbis/openssh_config/raw/master/sshd_config
+    url: https://repo01.no.habbfarm.net/habbfarm/openssh_config/raw/branch/main/sshd_config
     dest: /etc/ssh/
     mode: '0744'
 
